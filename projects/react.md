@@ -11,7 +11,7 @@ labels:
 summary: "A website that I developed for ICS 314."
 ---
 
-![Next.js Personal Choice Website](img/react/react.png)
+<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
 
 A simple webpage using Next.js that is based on the New York Times website. The links work and it was mainly a test to see Next.js capabilities.
 
