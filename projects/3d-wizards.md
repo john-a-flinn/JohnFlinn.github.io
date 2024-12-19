@@ -21,7 +21,7 @@ The store has a working search bar and each of the items blue link takes to a se
 
 Search for product
 
-```jsx
+
 
 <h5 className="mt-4">Search</h5>
 <form
@@ -44,7 +44,6 @@ Search for product
   </div>
 </form>
 
-```
 
 <img class="img-fluid" src="../img/3d-wizards/custom.png">
 
@@ -52,7 +51,7 @@ The custom order has three parameter being a requestr type, decspirtion and a ma
 
 The requestr type, decspirtion were made by another person I added on the code made the material and updated the sumbit button
 
-```jsx
+
 
 {/* Material Buttons with Color Selectors */}
 <div style={styles.materialButtons}>
@@ -85,11 +84,11 @@ The requestr type, decspirtion were made by another person I added on the code m
   ))}
 </div>
 
-```
+
 
 Color changing submit button using css
 
-```jsx
+
 
 {/* CSS */}
 const styles = {
@@ -121,7 +120,7 @@ const styles = {
   Submit
 </button>
 
-```
+
 
 website link
 https://3-d-wizards-inc-two.vercel.app/
