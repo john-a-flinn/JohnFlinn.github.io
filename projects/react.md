@@ -2,56 +2,61 @@
 layout: project
 type: project
 image: img/react/react.png
-title: "React"
+title: "Next.js Personal Choice Website"
 date: 2024
 published: true
 labels:
-  - React
+  - Next.js
   - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+summary: "A website that I developed for ICS 314."
 ---
 
-<img class="img-fluid" src="..img/react/react.png">
+<img class="img-fluid" src="img/react/react.png">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
-
-To give you a flavor of the game, here is an excerpt from one run:
+A simple webpage using next.js that is based on the New York Times website. The links should work and was mainly a test to see next.js capabilities
 
 <hr>
 
 <pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+Card segments with working links
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+          <Card.Body>
+            <a
+              href="https://www.nytimes.com/2024/10/15/world/middleeast/us-israel-military-aid-gaza-improvements.html" 
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              <Card.Title className="fw-bold">
+                U.S. Warns Israel to Increase Aid to Gaza or Face Consequences
+              </Card.Title>
+              <Card.Text>
+                The warning was conveyed in a letter sent Sunday to two top Israeli officials that included 
+                the possibility of a cutoff of U.S. military aid, officials said.
+              </Card.Text>
+              <p className="text-muted">6 MIN READ</p>
+            </a>
+          </Card.Body>
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
+working date and time
 
-pickup candle
-- you are now carrying the candle -
+const LogoSection = () => {
+  const [dateTime, setDateTime] = useState(new Date());
 
-pickup match
-- you are now carrying the match -
+  useEffect(() => {
+    const timer = setInterval(() => setDateTime(new Date()), 1000);
+    return () => clearInterval(timer);
+  }, []);
 
-light match candle
+drop down
 
-The candle is now lit. It illuminates everything in the room.
+      <DropdownButton id="dropdown-basic-button" title="U.S." variant="light">
+        {['Politics', 'New York', 'California', 'Education', 'Health'].map((item) => (
+          <Dropdown.Item key={item}>{item}</Dropdown.Item>
+        ))}
+      </DropdownButton>
 
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
+      
 </pre>
 
 <hr>
