@@ -13,9 +13,9 @@ labels:
 summary: "A store for 3d-Wizards company that my team developed in ICS 314."
 ---
 
-<img class="img-fluid" src="..img/3d-wizards/store.png">
+<img class="img-fluid" src="../img/3d-wizards/store.png">
 
 
-<img class="img-fluid" src="..img/3d-wizards/custom.png">
+<img class="img-fluid" src="../img/3d-wizards/custom.png">
 
 Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
