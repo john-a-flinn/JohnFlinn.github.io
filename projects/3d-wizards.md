@@ -21,7 +21,7 @@ The store has a working search bar and each of the items blue link takes to a se
 
 Search for product
 
-
+```cpp
 
 <h5 className="mt-4">Search</h5>
 <form
@@ -44,6 +44,7 @@ Search for product
   </div>
 </form>
 
+```
 
 <img class="img-fluid" src="../img/3d-wizards/custom.png">
 
@@ -51,8 +52,7 @@ The custom order has three parameter being a requestr type, decspirtion and a ma
 
 The requestr type, decspirtion were made by another person I added on the code made the material and updated the sumbit button
 
-
-
+```cpp
 {/* Material Buttons with Color Selectors */}
 <div style={styles.materialButtons}>
   {materialKeys.map((material) => (
@@ -84,15 +84,15 @@ The requestr type, decspirtion were made by another person I added on the code m
   ))}
 </div>
 
-
+```
 
 Color changing submit button using css
 
 
 
 {/* CSS */}
-const styles = {
-  submitButton: {
+
+submitButton: {
     width: '100%',
     padding: '12px',
     fontSize: '18px',
@@ -101,13 +101,13 @@ const styles = {
     backgroundColor: '#4CAF50',
     color: 'white',
     cursor: 'pointer',
-  },
-  disabledButton: {
+},
+disabledButton: {
     backgroundColor: '#ccc',
     cursor: 'not-allowed',
-  },
-};
+},
 
+```cpp
 {/* Submit Button */}
 <button
   type="submit"
@@ -120,7 +120,7 @@ const styles = {
   Submit
 </button>
 
-
+```
 
 website link
 https://3-d-wizards-inc-two.vercel.app/
