@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: "Personal React Choice"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2024-11-06
 published: true
 labels:
   - Engineering
