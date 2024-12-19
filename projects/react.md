@@ -23,6 +23,8 @@ A simple webpage using Next.js that is based on the New York Times website. The 
 
 #### Card Segments with Working Links
 
+```cpp
+
 <Card.Body>
   <a
     href="https://www.nytimes.com/2024/10/15/world/middleeast/us-israel-military-aid-gaza-improvements.html" 
@@ -41,7 +43,11 @@ A simple webpage using Next.js that is based on the New York Times website. The 
   </a>
 </Card.Body>
 
+```
+
 #### Working date and time
+
+```cpp
 
 const LogoSection = () => {
   const [dateTime, setDateTime] = useState(new Date());
@@ -58,7 +64,11 @@ const LogoSection = () => {
   );
 };
 
+```
+
 #### Single drop down menu next.js doesnt allow for multiple
+
+```cpp
 
 const DropdownMenu = () => (
   <DropdownButton id="dropdown-basic-button" title="U.S." variant="light">
@@ -67,3 +77,5 @@ const DropdownMenu = () => (
     ))}
   </DropdownButton>
 );
+
+```
