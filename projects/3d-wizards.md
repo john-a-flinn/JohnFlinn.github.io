@@ -106,14 +106,14 @@ disabledButton: {
     backgroundColor: '#ccc',
     cursor: 'not-allowed',
 },
-
+{% raw %}
 ```cpp
 {/* Submit Button */}
 <button
   type="submit"
   style={{
     ...styles.submitButton,
-    
+    ...(isFormValid ? {} : styles.disabledButton),
   }}
   disabled={!isFormValid}
 >
@@ -121,7 +121,7 @@ disabledButton: {
 </button>
 
 ```
-
+{% endraw %}
 website link
 https://3-d-wizards-inc-two.vercel.app/
 
