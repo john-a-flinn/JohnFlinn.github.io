@@ -113,7 +113,7 @@ disabledButton: {
   type="submit"
   style={{
     ...styles.submitButton,
-    ...(isFormValid ? {} : styles.disabledButton),
+    
   }}
   disabled={!isFormValid}
 >
