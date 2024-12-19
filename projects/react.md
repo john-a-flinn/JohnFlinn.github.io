@@ -13,6 +13,8 @@ summary: "A website that I developed for ICS 314."
 
 <img class="img-fluid" src="../img/react/react.png">
 
+---
+
 A simple webpage using Next.js that is based on the New York Times website. The links work and it was mainly a test to see Next.js capabilities.
 
 ---
@@ -56,7 +58,7 @@ const LogoSection = () => {
   );
 };
 
-#### Single drop down menu
+#### Single drop down menu next.js doesnt allow for multiple
 
 const DropdownMenu = () => (
   <DropdownButton id="dropdown-basic-button" title="U.S." variant="light">
