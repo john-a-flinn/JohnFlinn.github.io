@@ -11,7 +11,7 @@ labels:
 summary: "A website that I developed for ICS 314."
 ---
 
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
+<img class="img-fluid" src="../img/react/react.png">
 
 A simple webpage using Next.js that is based on the New York Times website. The links work and it was mainly a test to see Next.js capabilities.
 
@@ -21,7 +21,6 @@ A simple webpage using Next.js that is based on the New York Times website. The 
 
 #### Card Segments with Working Links
 
-```jsx
 <Card.Body>
   <a
     href="https://www.nytimes.com/2024/10/15/world/middleeast/us-israel-military-aid-gaza-improvements.html" 
@@ -40,6 +39,8 @@ A simple webpage using Next.js that is based on the New York Times website. The 
   </a>
 </Card.Body>
 
+#### Working date and time
+
 const LogoSection = () => {
   const [dateTime, setDateTime] = useState(new Date());
 
@@ -54,6 +55,8 @@ const LogoSection = () => {
     </div>
   );
 };
+
+#### Single drop down menu
 
 const DropdownMenu = () => (
   <DropdownButton id="dropdown-basic-button" title="U.S." variant="light">
