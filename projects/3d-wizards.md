@@ -88,8 +88,8 @@ The requestr type, decspirtion were made by another person I added on the code m
 
 Color changing submit button using css
 
-
-
+{% raw %}
+```cpp
 {/* CSS */}
 
 submitButton: {
@@ -106,8 +106,8 @@ disabledButton: {
     backgroundColor: '#ccc',
     cursor: 'not-allowed',
 },
-{% raw %}
-```cpp
+
+
 {/* Submit Button */}
 <button
   type="submit"
