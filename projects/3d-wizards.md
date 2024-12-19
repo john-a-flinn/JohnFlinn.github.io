@@ -19,8 +19,34 @@ summary: "A store for 3d-Wizards company that my team developed in ICS 314."
 
 The store has a working search bar and each of the items blue link takes to a second page a different member made.
 
+Search for product
+
+```cpp
+
+<h5 className="mt-4">Search</h5>
+<form
+  onSubmit={(e) => {
+    e.preventDefault(); // Prevent page reload on Enter
+  }}
+>
+  <div className="input-group">
+    <input
+      type="text"
+      className="form-control"
+      placeholder="Enter Product Name"
+      value={searchTerm}
+      aria-label="Search"
+      onChange={(e) => setSearchTerm(e.target.value)} // Update search term
+    />
+    <button className="btn btn-dark" type="submit">
+      Search
+    </button>
+  </div>
+</form>
+
 <img class="img-fluid" src="../img/3d-wizards/custom.png">
 
+```
 The custom order has three parameter being a requestr type, decspirtion and a material. there must be a request type, decsprition and atleast one material selected in order to be added to the database. 
 
 The requestr type, decspirtion were made by another person I added on the code made the material and updated the sumbit button
