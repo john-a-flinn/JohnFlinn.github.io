@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/beer/beer.png
+image: img/beer/croppedbeer.png
 title: "Vacay"
 date: 2015
 published: true
@@ -15,7 +15,7 @@ summary: "A non responsive web application for the Aloha Beer company that I mad
 
 <img class="img-fluid" src="../img/beer/beer.png">
 
-The test was on if we could formate and have empty links for each of the text options using the formate where you pull all your parts from the componets folder to main folder.
+The test was to see if we could format and create empty links for each of the text options using the structure where all components are pulled from the components folder to the main folder.
 
 ``` cpp
 
