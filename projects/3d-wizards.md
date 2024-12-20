@@ -13,13 +13,13 @@ labels:
 summary: "A store for 3d-Wizards company that my team developed in ICS 314."
 ---
 
-3d-Wizards was my first time doing a group coding project. The implementation is that it took and order from the store or a custom to the cart then once checked out of the cart it would be added to a postgres database. This site was added to vercel and still work as of 12/19 my part of the project was the custom order page and the design. 
+3D-Wizards was my first experience working on a group coding project. The implementation involved taking an order from the store or a custom request, adding it to the cart, and then transferring it to a PostgreSQL database upon checkout. This site was deployed on Vercel and is still functional as of 12/19. My contribution to the project included designing and developing the custom order page and its associated features.
 
 <img class="img-fluid" src="../img/3d-wizards/store.png">
 
-The store has a working search bar and each of the items blue link takes to a second page a different member made.
+The store features a functional search bar, and each item's blue link redirects to a separate page created by another team member.
 
-Search for product
+Search for Product
 
 ```cpp
 
@@ -48,9 +48,9 @@ Search for product
 
 <img class="img-fluid" src="../img/3d-wizards/custom.png">
 
-The custom order has three parameter being a requestr type, decspirtion and a material. there must be a request type, decsprition and atleast one material selected in order to be added to the database. 
+The custom order feature includes three parameters: request type, description, and material. A request type, description, and at least one material must be selected to add an entry to the database.
 
-The requestr type, decspirtion were made by another person I added on the code made the material and updated the sumbit button
+The request type and description were implemented by another team member, while I contributed by adding the material functionality and updating the submit button.
 
 ```cpp
 {/* Material Buttons with Color Selectors */}
@@ -86,7 +86,7 @@ The requestr type, decspirtion were made by another person I added on the code m
 
 ```
 
-Color changing submit button using css
+The submit button dynamically changes color based on its state, implemented using CSS for styling and conditional logic to ensure proper functionality.
 
 {% raw %}
 ```cpp
