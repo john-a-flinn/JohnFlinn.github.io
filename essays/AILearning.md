@@ -19,7 +19,6 @@ labels:
 </head>
 <body>
     <div class="container mt-4">
-        <h1>Personal Experience with AI in Software Engineering</h1>
 
         <h2>Introduction</h2>
         <p>

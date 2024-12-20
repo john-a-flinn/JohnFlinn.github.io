@@ -19,7 +19,6 @@ labels:
 </head>
 <body>
     <div class="container mt-4">
-        <h1>Beyond the Code: Lessons from Development Environments and Coding Standards</h1>
 
         <h2>Introduction</h2>
         <p>
