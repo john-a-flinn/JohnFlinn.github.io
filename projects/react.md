@@ -2,6 +2,8 @@
 layout: project
 type: project
 image: img/react/react.png
+image_width: 300 
+image_height: auto 
 title: "Next.js Personal Choice Website"
 date: 2024
 published: true
