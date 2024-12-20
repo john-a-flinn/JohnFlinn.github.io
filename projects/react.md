@@ -17,11 +17,7 @@ summary: "A website that I developed for ICS 314."
 
 A simple webpage using Next.js that is based on the New York Times website. The links work and it was mainly a test to see Next.js capabilities.
 
----
-
-### Features
-
-#### Card Segments with Working Links
+Card Segments with Working Links
 
 ```cpp
 
@@ -44,8 +40,8 @@ A simple webpage using Next.js that is based on the New York Times website. The 
 </Card.Body>
 
 ```
-
-#### Working date and time
+---
+Working date and time
 
 ```cpp
 
@@ -65,8 +61,8 @@ const LogoSection = () => {
 };
 
 ```
-
-#### Single drop down menu next.js doesnt allow for multiple
+---
+Single drop down menu next.js doesnt allow for multiple
 
 ```cpp
 
