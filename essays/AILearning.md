@@ -6,7 +6,7 @@ title: "Personal Experience with AI in Software Engineering"
 date: 2024-12-16
 published: true
 labels:
-  - Answers to homework
+  - Software Engineering
   - Learning
 ---
 

@@ -6,7 +6,7 @@ title: "Personal Design Pattern Approach"
 date: 2024-12-05
 published: true
 labels:
-  - Answers to homework
+  - Software Engineering
   - Learning
 ---
 

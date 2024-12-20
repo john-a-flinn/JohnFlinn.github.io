@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Beyond the Code: Lessons from Development Environments and Coding Standards"
 # All dates must be YYYY-MM-DD format!
-date: 2024-12-16
+date: 2024-12-18
 published: true
 labels:
   - Software Engineering
