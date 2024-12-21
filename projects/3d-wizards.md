@@ -10,7 +10,7 @@ labels:
   - Postgres
   - Html/CSS
   - GitHub
-summary: "A store for 3d-Wizards company that my team developed in ICS 314."
+summary: "A store website for 3D-Wizards, a company project developed by my team during the ICS 314 course."
 ---
 
 3D-Wizards was my first experience working on a group coding project. The implementation involved taking an order from the store or a custom request, adding it to the cart, and then transferring it to a PostgreSQL database upon checkout. This site was deployed on Vercel and is still functional as of 12/19. My contribution to the project included designing and developing the custom order page and its associated features.
@@ -122,7 +122,7 @@ disabledButton: {
 
 ```
 {% endraw %}
-website link
-https://3-d-wizards-inc-two.vercel.app/
 
-Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
+The website is live and accessible at [3D-Wizards Website](https://3-d-wizards-inc-two.vercel.app/).
+
+Source: <a href="https://github.com/orgs/3D-Wizards-Inc/repositories">3D-Wizards-Inc/3D-Wizards-Inc</a>
