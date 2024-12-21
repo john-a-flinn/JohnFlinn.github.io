@@ -2,15 +2,13 @@
 layout: project
 type: project
 image: img/beer/croppedbeer.png
-title: "Vacay"
-date: 2015
+title: "Aloha Beer"
+date: 2024-10-24
 published: true
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
+  - Next.js
   - GitHub
-summary: "A non responsive web application for the Aloha Beer company that I made in 10 minutes for a test."
+summary: "A simple, non-responsive web application created for the Aloha Beer Company as part of a 10-minute test project."
 ---
 
 <img class="img-fluid" src="../img/beer/beer.png">
@@ -27,3 +25,5 @@ The test was to see if we could format and create empty links for each of the te
 </div>
 
 ```
+
+Source: <a href="https://github.com/john-a-flinn/Aloha-Beer-Nextjs">Aloha-Beer-Nextjs</a>
