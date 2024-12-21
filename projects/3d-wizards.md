@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/3d-wizards/home.png
 title: "3d-Wizards"
-date: 2024
+date: 2024-12-15
 published: true
 labels:
   - Javascript
