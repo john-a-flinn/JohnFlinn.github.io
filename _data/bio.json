@@ -9,7 +9,7 @@
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Winter, 2025.",
     "location": { "address": "1550 Wilder Ave", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "john-a-flinn", "url": "https://john-a-flinn.github.io" },
+      { "network": "github", "username": "john-a-flinn", "url": "https://github.com/john-a-flinn" },
       { "network": "linkedin", "username": "John Flinn", "url": "https://www.linkedin.com/in/john-flinn-a52943325/" }
     ]
   },
